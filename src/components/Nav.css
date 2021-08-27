@@ -1,0 +1,43 @@
+.nav {
+  background-color: #eb6553;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  height: 47px;
+}
+
+.navLeft {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navLeft-welcome {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navRight {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 17px;
+}
+
+.navRight:hover, .navLeft:hover {
+  background-color: #f8efe4;
+  color: #eb6553;
+  transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
